@@ -31,7 +31,7 @@ flyway {
 public FlywayMigrationStrategy flywayMigrationStrategy(){
 	return args ->{};
 }
-<pre>
+</pre>
 
 ### Gradle Task: flywayMigrate
 Migrates the schema to the latest version. Flyway will create the schema history table automatically if it doesn’t exist.
